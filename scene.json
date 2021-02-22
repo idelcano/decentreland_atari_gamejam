@@ -1,0 +1,44 @@
+{
+	"display": {
+		"title": "DCLentipede",
+		"description": "Game developted to the atari gamejam",
+		"navmapThumbnail": "images/aliencentipede.png",
+		"favicon": "favicon_asset"
+	},
+	"contact": {
+		"name": "Ina",
+		"email": "ignaciodelcano@gmail.com"
+	},
+	"owner": "",
+	"scene": {
+		"parcels": ["-38,79"],
+		"base": "-38,79"
+	},
+	"communications": {
+		"type": "webrtc",
+		"signalling": "https://signalling-01.decentraland.org"
+	},
+	"policy": {
+		"contentRating": "E",
+		"fly": true,
+		"voiceEnabled": true,
+		"blacklist": []
+	},
+	"requiredPermissions": ["ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"],
+	"main": "bin/game.js",
+	"tags": [],
+	"spawnPoints": [{
+		"name": "spawn1",
+		"default": true,
+		"position": {
+			"x": 2,
+			"y": 1,
+			"z": 2
+		},
+		"cameraTarget": {
+			"x": 8,
+			"y": 1,
+			"z": 1
+		}
+	}]
+}
